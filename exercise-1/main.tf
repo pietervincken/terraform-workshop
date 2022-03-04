@@ -19,10 +19,13 @@ locals {
   name                = "tfwspivi"
 }
 
+data "azurerm_client_config" "current" {
+}
+
 resource "azurerm_key_vault" "mykeyvault" {
   name                = "kv${local.name}"
   resource_group_name = local.resource_group_name
   sku_name            = "standard"
-  tenant_id           = local.tenant_id
+  tenant_id           = data.azurerm_client_config.current.tenant_id
   location            = local.location
 }
