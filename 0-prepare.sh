@@ -30,8 +30,3 @@ echo "resource_group_name  = \"$rgstate\""          >> prepare/config.azurerm.tf
 echo "storage_account_name = \"$sastate\""          >> prepare/config.azurerm.tfbackend
 echo 'container_name       = "tfstate"'             >> prepare/config.azurerm.tfbackend
 echo 'key                  = "terraform.tfstate"'   >> prepare/config.azurerm.tfbackend
-
-echo "resource_group_name  = \"$rgstate\""          >> exercise/config.azurerm.tfbackend
-echo "storage_account_name = \"$sastate\""          >> exercise/config.azurerm.tfbackend
-echo 'container_name       = "tfstate"'             >> exercise/config.azurerm.tfbackend
-echo 'key                  = "terraform.tfstate"'   >> exercise/config.azurerm.tfbackend

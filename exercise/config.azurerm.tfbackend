@@ -1,4 +1,0 @@
-resource_group_name  = "rg-terraform-workshop-jworks"
-storage_account_name = "satfwsjworksstate"
-container_name       = "tfstate"
-key                  = "terraform.tfstate"
