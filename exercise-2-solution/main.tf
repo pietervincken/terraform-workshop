@@ -19,7 +19,6 @@ provider "azurerm" {
 }
 
 locals {
-  tenant_id           = "cbed0302-0bb5-413f-bba6-4b50f09b5470"
   resource_group_name = "rg-tfwspivi-playground-001"
   location            = "northeurope"
   name                = "tfwspivi"
