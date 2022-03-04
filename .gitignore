@@ -30,4 +30,4 @@ override.tf.json
 .env
 *.tfbackend
 tfplan.out
-.lock.hcl
+*.lock.hcl
