@@ -9,27 +9,6 @@ locals {
   rg       = "rg-terraform-workshop"
   participants = {
     pivi = "pieter.vincken@ordina.be"
-    yabo = "yannick.bontemps@ordina.be"
-    duca = "duncan.casteleyn@ordina.be"
-    kego = "kevin.govaerts@ordina.be"
-    jeve = "jeroen.vereecken@ordina.be"
-    jast = "jago.staes@ordina.be"
-    nija = "niels.jacquet@ordina.be"
-    kolu = "koen.luyten@ordina.be"
-    olhe = "olivier.hermans@ordina.be"
-    gesi = "gertjan.silkens@ordina.be"
-    chde = "chris.debruyne@ordina.be"
-    miva = "michiel.vanreybrouck@ordina.be"
-    maca = "maarten.casteels@ordina.be"
-    suqu = "sujith.quintelier@ordina.be"
-    joli = "jorrit.linnert@ordina.nl"
-    frbo = "frederick.bousson@ordina.be"
-    nihe = "nick.heymans@ordina.be"
-    sava = "sam.vancutsem@ordina.be"
-    tivi = "tim.vierbergen@ordina.be"
-    nide = "nils.devos@ordina.be"
-    noka = "nofit.kartoredjo@ordina.nl"
-    stve = "stieve.verheyden@ordina.be"
   }
 }
 
