@@ -17,7 +17,6 @@ locals {
     nija = "niels.jacquet@ordina.be"
     kolu = "koen.luyten@ordina.be"
     olhe = "olivier.hermans@ordina.be"
-    kabo = "katrien.boesmans@ordina.be"
     gesi = "gertjan.silkens@ordina.be"
     chde = "chris.debruyne@ordina.be"
     miva = "michiel.vanreybrouck@ordina.be"
@@ -27,6 +26,10 @@ locals {
     frbo = "frederick.bousson@ordina.be"
     nihe = "nick.heymans@ordina.be"
     sava = "sam.vancutsem@ordina.be"
+    tivi = "tim.vierbergen@ordina.be"
+    nide = "nils.devos@ordina.be"
+    noka = "nofit.kartoredjo@ordina.nl"
+    stve = "stieve.verheyden@ordina.be"
   }
 }
 
